@@ -1,0 +1,8 @@
+node_modules
+.replit
+replit.nix
+attached_assets
+artifacts/shopwave/dist
+artifacts/api-server/dist
+.agents
+.local
