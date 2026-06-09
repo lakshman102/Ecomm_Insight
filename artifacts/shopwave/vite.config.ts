@@ -37,7 +37,7 @@ export default defineConfig(async () => ({
   },
   root: path.resolve(__dirname),
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
+    outDir: fileURLToPath(new URL("../../dist", import.meta.url)),
     emptyOutDir: true,
   },
   server: {
